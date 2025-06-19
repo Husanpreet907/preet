@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* class selector for margins and padding */
+.header, .main, .footer {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  color: #003366;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: #005599;
+  font-size: 1.8em;
+}
+
+/* main height */
+.main {
+  min-height: 400px;
+}
+
+/* image styling */
+img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* figure CSS */
+figure {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+
+/* float behavior */
+figure:last-child {
+  margin-right: 0;
+}
+
+/* clear floats for section */
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* captions */
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+/* unordered list */
+ul {
+  list-style-type: square; /* custom bullet points */
+  line-height: 1.6;
+}
+
+/* list item height increase */
+li {
+  line-height: 1.8em;
+}
+
+/* link styles */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* hover effect */
+a:hover {
+  text-decoration: underline;
+  color: #004488;
+}
+
+/* background colors */
+.header {
+  background-color: #dbe9f4;
+}
+
+.footer {
+  background-color: #dbe9f4;
+  text-align: center;
+}
+
